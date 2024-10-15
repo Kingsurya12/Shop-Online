@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchingCenter1</title>
+
+    <style>
+      body{
+        background-color: purple;
+      }
+      button{
+        padding: 5px 10px;
+        font-size: 30px;
+        background-color: orange;
+        cursor: pointer; 
+      }
+      button:hover{
+       border-radius: 10px;
+       background-color: rgb(238, 157, 7);
+      }
+      .popup{
+        width: 50px;
+      }
+      .List{
+        display: none;
+        font-size: 20px;
+        position: absolute;
+        width: 150px;
+        border: solid black;
+        background-color: lightseagreen;
+      }
+      .popup:hover .List{
+        display: block;
+      }
+       
+       .head{
+        background-color: lightblue;
+        top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: sticky;
+       }
+        h1.matching-center {
+            font-size: 30px; 
+            position: relative; 
+            left: 30%;
+            max-width: 440px;
+            background-color:lightgoldenrodyellow;
+        }
+        h3{
+          font-size: 15px;
+          position: absolute;
+          top: 10%;
+          right: 5%;
+        }
+        h3:hover{
+          color: red;
+          cursor: pointer;
+        }
+        h2{
+          font-size: 15px;
+          position: absolute;
+          top: 60%;
+          right: 5%;
+        }
+        h2:hover{
+          color: red;
+          cursor: pointer;
+        }
+
+        
+        img {
+            display: block;
+            margin: 20px auto; /* Center the image */
+            max-height: 500px;
+            width: 100vw;
+         }
+    </style> 
+</head>
+
+
+
+
+<body>
+  <div class="head">
+    <h1 class="matching-center"><b>JYOTHI MATCHING CENTER</b></h1>
+
+    <h3 onclick="window.location.href='https://www.google.com/maps/place/Jyothi+Matching+Centre/@17.3290447,78.5556243,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcba36754a68d25:0xe8c21bc3d9c86be0!8m2!3d17.3290396!4d78.5581992!16s%2Fg%2F11spxqqwh3?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D'"><span style="color: red;"> 
+      Location:</span>
+        Plot no:3,<br>
+         East colony Phase II,<br>
+         Hasthinapuram. <br>
+    </h3>
+    <h2 onclick="window.location.href='tel:+918519910032'"><span style="background-color: yellow;">Contact:8519910032</h2>
+</div>
+    <p><span style="color: red; font-weight: bold; font-size: 50px; ">Hello Everyone</span>    <br>
+        <span style="color: palevioletred; font-weight: bold; font-size: 20px;">  Welcome to Jyothi Matching Center. We Sell products at very low price</span> <br>
+        <span style="color: green; font-weight: bold; font-size: 30px;"> To know our items click on below items option.</span>
+    </p>
+    <div class="popup">
+     <button  onclick="window.location.href='Items.html'">Items</button>
+     <div class="List">
+        <ul>
+            <li>Lining</li>
+            <li>Bangles</li>
+            <li>Phauls</li>
+            <li>Jewellery</li>
+        </ul>
+     </div>
+    </div>
+    <img src="HomepageBackgroundimage.webp" alt="Matching Center Image">
+</body>
+</html>

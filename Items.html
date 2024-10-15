@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align items */
+            background-color: lightpink;
+        }
+
+        .head {
+            background-color: lightblue;
+            top: 0px;
+            padding: 20px 0; /* Simplified padding */
+            position: sticky;
+            width: 100%; /* Make the header full width */
+            text-align: center; /* Center the text */
+        }
+
+        h1.matching-center {
+            font-size: 30px; 
+            background-color: lightgoldenrodyellow;
+            position: relative; 
+            left: 30%;
+            max-width: 440px;
+        }
+
+        .items-container {
+            display: flex;
+            justify-content: space-around; /* Space items evenly */
+            flex-wrap: wrap; /* Allow items to wrap */
+            max-width: 1000px; /* Control the max width of container */
+            padding: 20px; /* Add padding around container */
+        }
+
+        .item {
+            font-size: 20px;
+            border: solid black;
+            height: 300px; /* Set a fixed height */
+            width: 250px; /* Set a fixed width */
+            margin: 10px; /* Add space between items */
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align content in boxes */
+            justify-content: space-between; /* Space items vertically */
+        }
+
+        img {
+            max-width: 150px;
+            max-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 class="matching-center"><b>JYOTHI MATCHING CENTER</b></h1>
+    </div>
+    
+    <h1>Here are the Items available in our store</h1>
+
+    <div class="items-container">
+        <div class="item">
+            <h4>Item name: COTTON LINING</h4>
+            <img src="https://tiimg.tistatic.com/fp/1/005/222/90-polyester-10-cotton-pocket-lining-fabric-035.jpg" alt="">
+            <p>Price <b>45/-</b> Per meter</p>
+        </div>
+        <div class="item">
+            <h4>Item name: JEWELLERY</h4>
+            <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2022/01/shutterstock_355667753.jpg" alt="">
+            <p>Price starts from <b>50</b></p>
+        </div>
+        <div class="item">
+            <h4>Item name: BANGLES</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw7o_BkyEISj_8w0rXpKn-Qc2TJ507qV3Utw&s" alt="">
+            <p>Price starts from <b>25</b> per dozen</p>
+        </div>
+    </div>
+</body>
+</html>
